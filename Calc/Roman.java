@@ -1,8 +1,7 @@
 package Calc;
 
 public class Roman {
-    static char[] romanSymbols = {' ', 'V', 'I', 'X', '/', '+', '-', '*'};
-
+    private static char[] romanSymbols = {' ', 'V', 'I', 'X', '/', '+', '-', '*'};
     public void romanCount(String s) {
         if (!checkingForOnlyRomanSymbols(s)) {
             throw new NumberFormatException();
